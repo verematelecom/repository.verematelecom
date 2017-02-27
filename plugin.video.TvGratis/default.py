@@ -50,7 +50,7 @@ if REMOTE_DBG:
         sys.exit(1)
 
 
-addon = xbmcaddon.Addon('plugin.video.TvGratis 3.4')
+addon = xbmcaddon.Addon('plugin.video.TvGratis')
 addon_version = addon.getAddonInfo('version')
 profile = xbmc.translatePath(addon.getAddonInfo('profile').decode('utf-8'))
 home = xbmc.translatePath(addon.getAddonInfo('path').decode('utf-8'))
@@ -69,7 +69,7 @@ if os.path.exists(favorites)==True:
     FAV = open(favorites).read()
 else: FAV = []
 
-SOURCES = [{"title": "TvGratis 3.4 ", "url": "http://pastebin.com/raw/pDRkv29X", "fanart": "https://download.inevio.com/file/Ue2P6Pyt", "genre": "Tv Live", "date": "01.11.2015", "credits": "TvGratis", "thumbnail": "https://download.inevio.com/file/F8aAYp8i"}]
+SOURCES = [{"title": "TvGratis 3.5 ", "url": "http://pastebin.com/raw/1CF5pbsE", "fanart": "https://download.inevio.com/file/Ue2P6Pyt", "genre": "Tv Live", "date": "01.11.2015", "credits": "TvGratis", "thumbnail": "https://download.inevio.com/file/F8aAYp8i"}]
 
 # https://download.inevio.com/file/Ue2P6Pyt
 # https://download.inevio.com/file/F8aAYp8i
