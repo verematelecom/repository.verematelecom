@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.verematelecom" name="Verematelecom Repository" version="1.0.2" provider-name="VeremaTelecom - Marce ">
+	<extension point="xbmc.addon.repository" name="verema Repository">
+		<info compressed="false">http://raw.github.com/verematelecom/repository.verematelecom/master/addons.xml</info>
+		<checksum>http://raw.github.com/verematelecom/repository.verematelecom/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/verematelecom/repository.verematelecom/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Actualizaciones Kodi addons</summary>
+		<description>Repositorio con todo lo necesario para instalar sin problemas los addons de VeremaTelecom</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
